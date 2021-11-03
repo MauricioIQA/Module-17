@@ -1,9 +1,10 @@
-# Module17-Challenge:Credit Risk Analysis
+# Module17-Challenge
+
 ## Overview:
-The project used the credit card credit dataset from LendingClub, a peer-to-peer lending services company. RandomOverSampler and SMOTE algorithms were used to oversample the data and ClusterCentroids algorithm was used to undersample the data. Furthermore, a combinatorial approach of over- and undersampling used the SMOTEENN algorithm. Next, BalancedRandomForestClassifier and EasyEnsembleClassifier were compared two new machine learning models that reduce bias to predict credit risk.
+The objective of this Module was to g¿evaluate new machine learning models  to predict credit risk.
+
 ## Results:
-### credit_risk_resampling.ipynb
-#### Logistic Regression with different resampling:
+
 ##### Naive Random Oversampling:
   - Balanced Accuracy Score: 64.5%. 
   - High Risk Precision:0.01
@@ -28,7 +29,7 @@ The project used the credit card credit dataset from LendingClub, a peer-to-peer
   - High Risk Recall: 0.69
   - Low Risk Precision: 1.00
   - Low Risk Recall: 0.59
-### credit_risk_ensemble.ipynb
+
 ##### Balanced Random Forest Classifier:
   - Balanced Accuracy Score: 73.4%. 
   - High Risk Precision:0.02
@@ -43,4 +44,4 @@ The project used the credit card credit dataset from LendingClub, a peer-to-peer
   - Low Risk Recall: 0.94
 
 ## Summary:
-According to the results of six models above, the easy ensemble adaboost classifier to yield the best metrics for classification of high risk and low risk loan application. Both easy ensemble adaboost classifier and balanced random forest classifier performed significantly better than logistic models with resampling techniques. Among these four resampling methods on logistic models, there is no significant improvement between them.
+Looking at the results we may say that adaboost classifier yield to the best metrics of both high risk and low risk loan application. 
